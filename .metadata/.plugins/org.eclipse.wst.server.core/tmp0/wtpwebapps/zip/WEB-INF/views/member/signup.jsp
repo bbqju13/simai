@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/resources/css/signup.css">
 </head>
 <body>
-	<form action="/member/signup" method="post">
+	<form action="/member/signup" method="post" onsubmit="return validateForm()">
 		ID : <input type="text" name="id" placeholder="아이디">
 		PW : <input type="password" name="pw" placeholder="비밀번호">
 		NAME : <input type="text" name="name" placeholder="이름">
@@ -19,5 +19,6 @@
 		ADDR : <input type="text" name="addr" placeholder="주소">
 		<button>가입</button>
 	</form>
+	<script type="text/javascript" src="/resources/js/signup.js"></script>
 </body>
 </html>
