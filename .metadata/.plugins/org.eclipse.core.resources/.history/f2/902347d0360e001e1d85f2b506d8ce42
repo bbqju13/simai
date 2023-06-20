@@ -1,0 +1,19 @@
+package com.myweb.www.contorller;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping("/member/*")
+@Controller
+public class MemberContorller {
+	private static final Logger log = LoggerFactory.getLogger(MemberContorller.class);
+	
+	private MemberService msv;
+	
+	public String index(Model m) {
+		
+	}
+}

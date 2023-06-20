@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+	background-color: #1a1a1a;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+form {
+	opacity: 0;
+	animation: fadeIn 1s 0.5s forwards;
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+.btn-outline-light {
+	color: #fff;
+	border-color: #fff;
+}
+
+.btn-outline-light:hover {
+	background-color: #fff;
+	color: #121212;
+}

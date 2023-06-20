@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.form-field {
+  margin-bottom: 1em;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: .5em;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-nav {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.form-nav a {
+  margin-right: 1em;
+}

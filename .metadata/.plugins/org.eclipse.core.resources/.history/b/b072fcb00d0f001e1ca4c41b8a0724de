@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+div {
+	position: relative;
+	padding: 2em;
+	display: block;
+	text-align: center;
+}
+
+h1 {
+	position: relative;
+	display: inline;
+	font-size: 200%;
+	padding: 1em 0;
+}
+
+h1:before, h1:after {
+	content: '`';
+	position: absolute;
+	left: -1.2ex;
+	top: 0.2em;
+	width: 1em;
+	height: 1em;
+	font-size: 300%;
+	-ms-transform: rotate(-40deg);
+	-webkit-transform: rotate(-40deg);
+	transform: rotate(-40deg);
+}
+
+h1:after {
+	left: auto;
+	right: -1.2ex;
+	top: -0.1em;
+	-ms-transform: rotate(140deg);
+	-webkit-transform: rotate(140deg);
+	transform: rotate(140deg);
+}

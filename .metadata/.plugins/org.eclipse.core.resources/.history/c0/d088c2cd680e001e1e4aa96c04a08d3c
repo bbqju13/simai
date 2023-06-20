@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body {
+	background-color: #121212;
+	color: #fff;
+	/* Update this to change the general text color to white */
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.table {
+	background-color: #222;
+	border-color: #333;
+	transition: all 0.3s ease;
+}
+
+.table:hover {
+	transform: scale(1.01);
+	box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.7);
+}
+
+.table thead th {
+	color: #007bff;
+}
+
+.table tbody tr td, .table tbody tr th {
+	color: #fff;
+}
+
+.btn-outline-primary {
+	border-color: #007bff;
+	color: #007bff;
+	background-color: transparent;
+	transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+	background-color: #007bff;
+	color: #fff;
+	box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+}
+
+a, a:hover {
+	color: #007bff;
+	text-decoration: none;
+}
+
+input[type="text"], select.form-select {
+	background-color: #222;
+	color: #fff;
+	
+	border-color: #333;
+}

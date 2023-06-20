@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+	background-color: #121212;
+	color: #ddd;
+}
+
+.table {
+	background-color: #222;
+	border-color: #333;
+}
+
+.btn-outline-primary {
+	border-color: #007bff;
+	color: #007bff;
+	background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+	background-color: #007bff;
+	color: #fff;
+}
+
+a, a:hover {
+	color: #007bff;
+}

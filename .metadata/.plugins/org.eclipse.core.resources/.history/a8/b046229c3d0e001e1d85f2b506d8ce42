@@ -1,0 +1,11 @@
+package com.myweb.www.domain;
+
+public class FileVO {
+	private String uuid;
+	private String save_dir;
+	private String file_name;
+	private String file_type;
+	private int bno;
+	private int file_size;
+	private String reg_date;
+}

@@ -1,0 +1,39 @@
+package com.myweb.www.domain;
+
+import java.util.List;
+
+public class BoardDTO {
+
+	private BoardVO bvo;
+	private List<FileVO> flist;
+
+	public BoardDTO() {
+	}
+
+	public BoardDTO(BoardVO bvo, List<FileVO> list) {
+		this.bvo = bvo;
+		this.list = list;
+	}
+
+	public BoardVO getBvo() {
+		return bvo;
+	}
+
+	public void setBvo(BoardVO bvo) {
+		this.bvo = bvo;
+	}
+
+	public List<FileVO> getFlist() {
+		return list;
+	}
+
+	public void setFlist(List<FileVO> list) {
+		this.list = list;
+	}
+
+	@Override
+	public String toString() {
+		return "BoardDTO [bvo=" + bvo + ", list=" + list + "]";
+	}
+
+}

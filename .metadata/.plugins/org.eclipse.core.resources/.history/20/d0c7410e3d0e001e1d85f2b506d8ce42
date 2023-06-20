@@ -1,0 +1,11 @@
+package com.myweb.www.domain;
+
+public class BoardVO {
+	private int bno;
+	private String title;
+	private String content;
+	private String writer;
+	private String reg_date;
+	private int read_cnt;
+	private String isde;
+}

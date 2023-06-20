@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+footer {
+	border-top: 1px solid #e4e4e4;
+	background-color: #f8f9fa;
+	padding: 0;
+	margin: 0;
+	bottom: 1px;
+}
+
+.footer-message {
+	font-weight: bold;
+	font-size: 0.9rem;
+	color: #545e6f;
+	margin-bottom: 0.3rem;
+	margin: 0 0 0 0.6rem;
+}
+
+.footer-contact {
+	font-size: 0.9rem;
+	color: #545e6f;
+	margin: 0.6rem;
+}
+
+.footer-copyright {
+	font-size: 0.9rem;
+	color: #545e6f;
+	margin: 0.6rem;
+}
