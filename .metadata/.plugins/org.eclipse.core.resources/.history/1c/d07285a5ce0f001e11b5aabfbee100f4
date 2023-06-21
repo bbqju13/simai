@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@import
+	url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+h1 {
+	font-size: 32px;
+	margin-bottom: 50px;
+}
+
+h1.sixth {
+	position: relative;
+	
+}
+
+h1.sixth:before, h1.sixth:after {
+	content: '[';
+	display: inline-block;
+	position: relative;
+	top: 1px;
+	height: 100%;
+	font-size: 1.25em;
+	color: tomato;
+	transition: all 0.5s ease;
+}
+
+h1.sixth:after {
+	content: ']';
+}
+
+h1.sixth:hover:before {
+	transform: translateX(-5px);
+}
+
+h1.sixth:hover:after {
+	transform: translateX(5px);
+}
+.container{
+	position: absolute;
+	top: 30px;
+}

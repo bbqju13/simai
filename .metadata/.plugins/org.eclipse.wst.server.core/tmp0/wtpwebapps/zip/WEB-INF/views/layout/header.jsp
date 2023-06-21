@@ -10,6 +10,7 @@
 <body>
 	<div class="container">
 		<h1 class="sixth">Welcome. Is this your first time ?</h1>
+		<hr class="hr-how" />
 	</div>
 </body>
 </html>
